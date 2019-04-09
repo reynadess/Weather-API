@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="input">
+        <h2>City Name:</h2>
+        <input type="text" id="cityName"> 
+        <button id="submit">Submit</button>
+    </div>
+    <div class="widget">
+        <div class="top">
+            <h3 class="cityName"><span id="city">London</span>,<span id="country"> GB</span></h3>
+            <h5 id="desc">Haze</h5>
+        </div>
+        
+        <div class="row">
+            <div class="main degree col-sm-5">
+                <p id="celsuis"> 9°C</p>
+            </div>
+            <div class="main details col-sm-6">
+                <p class="head">
+                <span id="head">Details</span>
+                <div class="row">
+                    <div class="col-sm-6">
+                        Feels Like <br>
+                        Wind <br>
+                        Humidity <br>
+                        Precip <br>
+                        Pressure <br>
+                    </div>
+                    <div class="col-sm-6 num">
+                       <span id="feels"> 9°C</span> <br>
+                       <span id="wind"> 3.6m/s</span> <br>
+                       <span id="humidity"> 81%</span>
+                       <br>
+                        - <br>
+                        <span id="pressure"> 1006 hPa</span> 
+                        <br>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p class="bottom-text">OpenWeatherMap <span id="time"></span></p>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jquery.js"></script>
+</html>

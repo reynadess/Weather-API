@@ -1,0 +1,54 @@
+.input{
+    margin: 10px;
+}
+
+.widget{
+    border: 2px black solid;
+    width: 450px;
+    margin: 10px;
+}
+
+.top{
+    height: 70px;
+    align-items: center; 
+    background-color: #FEBF3D;
+    text-align: center;
+}
+.cityName{
+    font-size:30px;
+    margin-bottom:0px;
+}
+
+#celsuis{
+    font-size: 90px;
+}
+
+.head{
+    border-bottom:  #7ADDDD solid;
+}
+
+#head{
+    font-weight: 600;
+}
+
+.num{
+    font-weight: 600;
+}
+.bottom{
+    align-items: center;
+    background-color: #FEBF3D;
+}
+
+.bottom-text{
+    align-items: center;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#time{
+    
+    font-size: 14px;
+    font-weight: 200;
+    float: right;
+}
