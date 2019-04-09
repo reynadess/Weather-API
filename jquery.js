@@ -6,7 +6,7 @@ $("#submit").click(function(){
     console.log(cityName);
     $.ajax({
         type:'GET',
-        url:`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=b292482febc36c64a533d9bd1b1e2536`,
+        url:`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=b292482febc36c64a533d9bd1b1e2536`,
         success: function(res){
             console.log(res);            
             $("#city").text(res.name);
